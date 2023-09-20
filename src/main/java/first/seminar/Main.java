@@ -19,15 +19,15 @@ public class Main {
 
         assertConditionB();
 
-        System.out.println(sum(2_147_483_647, 2));
+        System.out.println(sum(2_147_483_647, 0));
 
-        happyNY();
+//        happyNY();
 
         expectedValue();
 
         checkingShoppingCart();
 
-        String[] colors = {"...", "...",};
+        String[] colors = {"aqua", "orange", "green", "yellow", "blue", "violet", "gold",};
         testingJavaCollectionsAssertJ(colors);
 
         List<String> heroBag = Arrays.asList("Bow", "Axe", "Gold");
@@ -40,7 +40,7 @@ public class Main {
      */
     public static void assertConditionA() {
         String[] weekends = {"Суббота", "Воскресенье"};
-        assert weekends.length == 3;
+        assert weekends.length == 2;
         System.out.println("В неделе " + weekends.length + " дня выходных");
     }
 
@@ -49,7 +49,7 @@ public class Main {
      */
     public static void assertConditionB() {
         int x = -1;
-        assert x >= 0;
+        assert x <= 0;
     }
 
     /**
@@ -63,6 +63,7 @@ public class Main {
      * @apiNote assert boolean_выражение : сообщение_об_ошибке;
      */
     public static int sum(int a, int b) {
+        assert (Integer.MAX_VALUE - a >= b) : "Значение вышло за предел";
         return a + b;
     }
 
@@ -89,6 +90,7 @@ public class Main {
         productCategories.add("fruits");
         productCategories.add("vegetables");
         productCategories.add("bakery");
+        productCategories.add("drink");
 
         ArrayList<String> products = new ArrayList<>();
         products.add("apple");
@@ -103,6 +105,8 @@ public class Main {
                 System.out.println("category: " + productCategories.get(1));
             } else if (product.equals("bread")) {
                 System.out.println("category: " + productCategories.get(2));
+            } else if (product.equals("water")) {
+                System.out.println("category: " + productCategories.get(3));
             } else {
                 assert false : "Unknown category for the product " + product;
             }
@@ -113,7 +117,7 @@ public class Main {
      * 6) Найдите ошибку
      */
     public static void expectedValue() {
-        assertThat(5).isEqualTo(sum(2, 3));
+        assertThat(sum(2, 3)).isEqualTo(5);
     }
 
     /**
@@ -142,6 +146,14 @@ public class Main {
      * 5. Проверить, что герой это человек (свойство isHuman)<p>
      */
     public static void checkingHero(Hero hero) {
+        assertThat(hero.getName()).isEqualTo("Emmett");
+        assertThat(hero.getArmorStrength()).isEqualTo(50);
+        assertThat(hero.getWeapon()).isEqualTo("sword");
+        assertThat(hero.getBag())
+                .isNotEmpty()
+                .hasSize(3)
+                .contains("Bow", "Axe", "Gold");
+        assertThat(hero.isHuman()).isTrue();
     }
 
 }

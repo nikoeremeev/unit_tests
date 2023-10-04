@@ -4,11 +4,113 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041140b2-c73d-42d0-b82e-f76e98c917b7" name="Changes" comment="add HW for seminar 1">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="041140b2-c73d-42d0-b82e-f76e98c917b7" name="Changes" comment="add HW for seminar 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework1/Task1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework1/Task2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework1/Task2/ProductComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework1/Task2/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Shop/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Shop/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Shop/TextUserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework3/task2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework3/task2/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework5/hm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework6/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/additional/AdditionalClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/additional/AdditionalClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/contoller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/model/CalculatorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar3/view/CalculatorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/book/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/card/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/card/PaymentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/database/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/hotel/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/hotel/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/message/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/message/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/weather/WeatherReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar4/weather/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/MaxNumberFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/RandomNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/task2/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/task2/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/task3/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/seminar5/task3/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework1/Task1/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework1/Task2/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework2/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/AssertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/assertThat/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/assertThat/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/assertThat/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/assertThat/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/seminar3/additional/AdditionalClass1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/seminar3/additional/AdditionalClass2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/seminar3/contoller/CalculatorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/seminar3/model/CalculatorModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/seminar3/view/CalculatorViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/TestSomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/TextUserInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/homework3/MainHWTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/homework3/task2/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/homework6/CheckStyle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/homework6/CoverageTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/homework6/TaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar4/book/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar4/book/Ответы на вопросы" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task1/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task1/MaxNumberFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task1/RandomNumberGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task2/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task3/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task3/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task3/UserServiceTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seminar5/task4/SauceDemoLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/TestEvenOddNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/TestIntervalChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/seminars/second/hw/VehicleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/assertj-core-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/junit-jupiter-api-5.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/junit-jupiter-params-5.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/junit-platform-commons-1.9.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/hw/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/hw/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/hw/ShopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/lection/LectionHomeWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/lection/MainTypesOfErrors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/model/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/model/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first/seminar/model/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second/seminar/hw/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second/seminar/hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second/seminar/hw/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second/seminar/hw/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/third/seminar/hw/EvenOddNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/third/seminar/hw/IntervalChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/third/seminar/hw/MainHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homework3/MainHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/third/seminar/tdd/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/third/seminar/tdd/UserRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +141,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Java_projects/UnitTests_GB/unit_tests/src/main/java/first/seminar&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Admin/Java_projects/UnitTests_GB/unit_tests"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Java_projects\UnitTests_GB\unit_tests" />
+      <recent name="C:\Users\Admin\Java_projects\UnitTests_GB\unit_tests\Test" />
+      <recent name="C:\Users\Admin\Java_projects\UnitTests_GB\unit_tests\src\main\java\third\seminar" />
       <recent name="C:\Users\Admin\Java_projects\UnitTests_GB\unit_tests\src\main\java\first\seminar" />
     </key>
   </component>
@@ -152,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695234660638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add HW for seminar 3">
+      <created>1696438726145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696438726145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +282,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="add seminar tasks" />
     <MESSAGE value="add HW for seminar 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW for seminar 1" />
+    <MESSAGE value="add HW for seminar 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW for seminar 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/unit_tests$Main.ic" NAME="Main Coverage Results" MODIFIED="1694712791655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
